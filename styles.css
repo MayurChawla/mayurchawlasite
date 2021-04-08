@@ -1,0 +1,22 @@
+:root {
+    --primary-color : #811a74;
+}
+body {
+    margin : 0px;
+}
+.navigation {
+    background-color: var(--primary-color);
+    color : white;
+}
+.nav-list {
+    list-style: none;
+    text-align: right;
+}
+.nav-list-item {
+    display : inline;
+    padding : 0rem 2rem;
+}
+.nav-list-item-a {
+    text-decoration: none;
+    color : white;
+}
