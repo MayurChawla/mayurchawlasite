@@ -37,6 +37,7 @@ body {
 
 }
 .hero {
+    max-width: 80%;
     width : 500px;
     display : block;
     margin : auto;
