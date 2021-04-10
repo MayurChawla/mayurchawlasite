@@ -52,7 +52,21 @@ body {
 }
 .hero-quote {
     margin-top: 5px;
+    display : block;
+    margin: auto;
+    max-width: 80%;
     text-align: center;
 }
 
 /* Sections */
+.sections {
+    padding : 2rem;
+}
+.container {
+    padding : 0rem 1rem;
+}
+.centered-container {
+    /* margin : auto; */
+    max-width : 600px;
+}
+
