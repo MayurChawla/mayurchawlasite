@@ -1,5 +1,6 @@
 :root {
     --primary-color : #811a74;
+    --dark-gray : #6b7280;
 }
 body {
     margin : 0px;
@@ -11,11 +12,16 @@ body {
 }
 .nav-brand {
     text-decoration: none;
+    font-size: 2rem;
     color : white;
 }
 .nav-list {
     list-style: none;
+    font-size: 1.2rem;;
     text-align: right;
+}
+.item-active {
+    font-weight: bold;
 }
 .nav-list-item {
     display : inline;
@@ -25,3 +31,27 @@ body {
     text-decoration: none;
     color : white;
 }
+
+/* Header */
+.header {
+
+}
+.hero {
+    width : 500px;
+    display : block;
+    margin : auto;
+}
+.hero-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    color : var(--dark-gray);
+}
+.hero-highlight {
+    color : var(--primary-color);
+}
+.hero-quote {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* Sections */
