@@ -91,6 +91,10 @@ body {
     padding : 4rem 1rem;
     border-top-right-radius: 1rem;
 }
+.footer-text {
+    font-size: large;
+    font-weight: bold;
+}
 .footer-list {
     list-style: none;
     padding-inline-start: 0px;
