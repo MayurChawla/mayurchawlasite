@@ -70,6 +70,7 @@ body {
 .sections {
     padding : 2rem;
     text-align : center;
+    align-items: center;
 }
 .container {
     padding : 0rem 1rem;
@@ -98,4 +99,27 @@ body {
 .footer-list {
     list-style: none;
     padding-inline-start: 0px;
+}
+
+/* Buttons */
+.project-button {
+    width: 140px;
+    display : block;
+    background-color: var(--primary-color);
+    font-size: medium;
+    color : white;
+    border-radius: .5rem;
+    padding : 0.5rem;
+    margin: auto;
+}
+.blogs-button {
+    width: 140px;
+    display : block;
+    background-color: var(--light-gray);
+    font-size: medium;
+    color : var(--primary-color);
+    border-radius: .5rem;
+    border-color: var(--primary-color);
+    padding : 0.5rem;
+    margin: auto;
 }
