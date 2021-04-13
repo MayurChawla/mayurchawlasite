@@ -102,7 +102,7 @@ body {
 }
 
 /* Buttons */
-.project-button {
+.button-primary {
     width: 140px;
     display : block;
     background-color: var(--primary-color);
@@ -112,7 +112,7 @@ body {
     padding : 0.5rem;
     margin: auto;
 }
-.blogs-button {
+.button-secondary {
     width: 140px;
     display : block;
     background-color: var(--light-gray);
@@ -125,4 +125,22 @@ body {
 }
 .p_a {
     text-decoration: none;
+}
+/* Changes For Blogs */
+.button-primary-blogs {
+    width: 140px;
+    background-color: var(--primary-color);
+    font-size: medium;
+    color : white;
+    border-radius: .5rem;
+    padding : 0.5rem;
+}
+.button-secondary-blogs {
+    width: 140px;
+    background-color: var(--light-gray);
+    font-size: medium;
+    color : var(--primary-color);
+    border-radius: .5rem;
+    border-color: var(--primary-color);
+    padding : 0.5rem;
 }
