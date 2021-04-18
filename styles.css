@@ -144,3 +144,26 @@ body {
     border-color: var(--primary-color);
     padding : 0.5rem;
 }
+
+/* css for blogs */
+.blog-page-title {
+    text-align: center;
+}
+.blog-sections {
+    padding : 2rem;
+    margin: auto;
+    max-width : 700px;
+    align-items: center;
+}
+.blogshr {
+    width:75%;
+}
+.blogs-back-button {
+    margin : 2rem;
+}
+.blog-hero {
+    max-width: 80%;
+    width : 600px;
+    display : block;
+    margin : auto;
+}
