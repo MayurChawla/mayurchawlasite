@@ -86,6 +86,28 @@
             #a {color: yellow;}<br>
             div[id=a] {color: blue;}<br>
         </p>
+        <p>
+            <strong>3) Embedded style-sheet is more specific than the external style-sheet</strong> -
+            <br><br>EXAMPLE) Consider the code scene :<br><br>
+            In external CSS file:<br>
+            #idname h1 {color: red;}<br>
+            <br>
+            In HTML file: => Applied as it is more specific( closer to the element)<br>
+            &lt;style&gt;<br>
+            #idname h1 {<br>
+            color: blue;<br>
+            }<br>
+            &lt;/style&gt;<br>
+        </p>
+        <p>
+            <strong>4) A class selector beats any number of element selectors</strong> -
+            <br><br>EXAMPLE) Consider the code scene :<br><br>
+            .intro {color: red;} => Applied as it is beats the element selector<br>
+            h1 {color: green;}<br>
+        </p>
+        <p>
+            <strong>5) The universal selector and inherited values have a specificity of 0.</strong>
+        </p>
         
         <a class="nav-list-item-a " href="/blogs.html">
             <button class="button-secondary-blogs blogs-back-button" >Back to Blogs</button>
